@@ -13,8 +13,16 @@ public class TicketDao {
 
 	public void setTemplate(JdbcTemplate template) {
 		this.template = template;
-	}
+	}	
 	
+	
+	public TicketDao() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+
 	public void buyTicket(final TicketDto dto) {
 		
 		this.template.update(new PreparedStatementCreator() {
