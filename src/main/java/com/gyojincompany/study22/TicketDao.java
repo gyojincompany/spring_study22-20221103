@@ -24,7 +24,7 @@ public class TicketDao {
 				// TODO Auto-generated method stub
 				String sql = "insert into card (consumerid,amount) values (?,?)";
 				PreparedStatement pstmt = con.prepareStatement(sql);
-				pstmt.setString(1, dto.getCosumerid());
+				pstmt.setString(1, dto.getConsumerid());
 				pstmt.setString(2, dto.getAmount());
 				
 				return pstmt;

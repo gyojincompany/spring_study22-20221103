@@ -5,10 +5,10 @@ public class TicketDto {
 	private String consumerid;
 	private String amount;
 	
-	public String getCosumerid() {
+	public String getConsumerid() {
 		return consumerid;
 	}
-	public void setCosumerid(String cosumerid) {
+	public void setConsumerid(String cosumerid) {
 		this.consumerid = cosumerid;
 	}
 	public String getAmount() {
